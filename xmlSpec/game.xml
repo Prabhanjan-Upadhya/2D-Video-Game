@@ -1,0 +1,242 @@
+<?xml version = "1.0"?>
+<GameData>
+<!-- screenTitle is also used to identify you and your animation. 
+     So make sure to include your name as part of the screenTitle -->
+<screenTitle>Prabhanjan's Anime Mix Mash</screenTitle>
+<maxStringSize>50</maxStringSize>
+
+<frameCap>60</frameCap>
+<framesAreCapped>true</framesAreCapped>
+<frameMax>300</frameMax>
+<username>pupadhy</username>
+
+<view>
+  <width>854</width>
+  <height>480</height>
+</view>
+
+<world>
+  <width>3840</width>
+  <height>480</height>
+</world>
+
+<clock>
+  <locX>10</locX>
+  <locY>10</locY>
+</clock>
+
+
+<back1>
+  <file>images/Sky_Final.png</file>
+  <red>193</red>
+  <green>205</green>
+  <blue>205</blue>
+  <factor>8</factor>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>2048</width>
+  <height>510</height>
+  <transparency>false</transparency>
+</back1>
+
+<back2>
+  <file>images/Sea.png</file>
+  <red>193</red>
+  <green>205</green>
+  <blue>205</blue>
+  <factor>4</factor>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>961</width>
+  <height>599</height>
+  <transparency>false</transparency>
+</back2>
+
+<back3>
+  <file>images/Grass.png</file>
+  <red>193</red>
+  <green>205</green>
+  <blue>205</blue>
+  <factor>1</factor>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>1440</width>
+  <height>480</height>
+  <transparency>false</transparency>
+</back3>
+
+<font name="font">
+  <file>font/dyslexic-bold.otf</file>
+  <size>16</size>
+  <red>255</red>
+  <green>255</green>
+  <blue>255</blue>
+  <unused>0</unused>
+</font>
+
+<Goku>
+  <file>images/Goku_Sprite.png</file>
+  <startLoc x="120" y="140"/>
+
+  <frames>6</frames>
+  <frameInterval>500</frameInterval>
+
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>170</width>
+  <height>92</height>
+  <speedX>200</speedX>
+  <speedY>10</speedY>
+  <transparency>true</transparency>
+  <chunk>
+    <size>16</size>
+    <distance>200</distance>
+  </chunk>
+</Goku>
+
+<Boss>
+  <file>images/Snorlax.png</file>
+  <startLoc x="3700" y="400"/>
+
+  <frames>16</frames>
+  <frameInterval>200</frameInterval>
+
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>83</width>
+  <height>77</height>
+  <speedX>-50</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+  <chunk>
+    <size>16</size>
+    <distance>200</distance>
+  </chunk>
+</Boss>
+
+<Boss_Sleep>
+  <file>images/Snorlax_Sleep_Final.png</file>
+  <startLoc x="3700" y="400"/>
+
+  <frames>4</frames>
+  <frameInterval>200</frameInterval>
+
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>83</width>
+  <height>77</height>
+  <speedX>-50</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+  <chunk>
+    <size>16</size>
+    <distance>200</distance>
+  </chunk>
+</Boss_Sleep>
+
+<Weedle>
+  <file>images/pidgey.png</file>
+  <startLoc x="200" y="400"/>
+  <number>20</number>
+  <frames>10</frames>
+  <frameInterval>200</frameInterval>
+
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>44</width>
+  <height>40</height>
+  <speedX>-50</speedX>
+  <speedY>2</speedY>
+  <transparency>true</transparency>
+  <chunk>
+    <size>16</size>
+    <distance>200</distance>
+  </chunk>
+</Weedle>
+
+
+<Laprus>
+  <file>images/Lapras.png</file>
+  <startLoc x="120" y="340"/>
+
+  <frames>32</frames>
+  <frameInterval>100</frameInterval>
+
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>60</width>
+  <height>61</height>
+  <speedX>50</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+  <chunk>
+    <size>16</size>
+    <distance>200</distance>
+  </chunk>
+</Laprus>
+
+<Bike>
+  <file>images/Bike.png</file>
+  <startLoc x="140" y="400"/>
+
+  <frames>6</frames>
+  <frameInterval>120</frameInterval>
+
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>60</width>
+  <height>51</height>
+  <speedX>150</speedX>
+  <speedY>150</speedY>
+  <transparency>true</transparency>
+  <chunk>
+    <size>16</size>
+    <distance>200</distance>
+  </chunk>
+</Bike>
+
+<numberofDrops>1000</numberofDrops>
+<safeDistance>75</safeDistance>
+<Rain>
+  <file>images/Raindrop.png</file>
+  <src x="0" y="0"/>
+  <width>29</width>
+  <height>50</height>
+  <startLoc x="320" y="240"/>
+  <scale min="0.5" max="1.5"/>
+  <speedX>5</speedX>
+  <speedY>75</speedY>
+  <transparency>true</transparency>
+  <chunk>
+    <size>16</size>
+    <distance>200</distance>
+  </chunk>
+</Rain>
+
+<bullet>
+  <file>images/bullet.png</file>
+  <src x="0" y="0"/>
+  <width>16</width>
+  <height>16</height>
+  <startLoc x="240" y="360"/>
+  <speedX>750</speedX>
+  <speedY></speedY>
+  <transparency>true</transparency>
+</bullet>
+
+
+<boulder>
+  <file>images/Boulder.png</file>
+  <src x="0" y="0"/>
+  <width>35</width>
+  <height>36</height>
+  <startLoc x="3800" y="400"/>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</boulder>
+
+<HUD>
+  <initial_time>3</initial_time>
+</HUD>
+</GameData>

@@ -1,0 +1,40 @@
+Name: Prabhanjan Ganesh Upadhya
+Clemson Email Address: pupadhy@clemson.edu
+
+Project no: 6 
+Project due date: 12/04/2015 12:00:00
+
+Project description:
+Playable Game. The game in question is unnamed. The game is pretty straight forward. It's about eliminating (that's right) the Pokemon in the game. I have also included a boss battle, upon completion leads to the end of the game. The project is checked for memory errors, using valgrind. Also, I rectified a couple of bugs, I found in my earlier assignment.
+NOTE- There are no memory leaks. I verified it (for an unhealthy number of times!) with the previous projects. the leak summary is consistent with previous projects, all are from the SDL Library.
+
+
+How you made your sprites: 
+All of the sprites and the background are the creative work of others. Raindrop is the only thing that I created. That was using inkscape and gimp. The background images are a combination of Google searches. Following is where I found the sprites.
+Bike: www.spriters-resource.com
+Snorlax: www.spriters-resource.com
+Laprus: www.spriters-resource.com
+Pokeball: www.spriters-resource.com
+Pidgey: adamantditto.blogspot.com
+
+
+
+--------------------------------
+| Clock         |              |
+--------------------------------
+| Sprites       |              |
+--------------------------------
+| Singleton     |              |
+--------------------------------
+| game.xml      |              |
+--------------------------------
+| Leaks         |              |
+--------------------------------
+| F4/frames     |              |
+--------------------------------
+| Submission    |              |
+--------------------------------
+| README        |              |
+--------------------------------
+
+
